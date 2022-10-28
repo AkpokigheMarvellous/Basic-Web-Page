@@ -1,7 +1,5 @@
 import React from 'react';
 import Data from './LinkData';
-import Slack from '../../assets/images/slack.png';
-import Github from '../../assets/images/github.png';
 
 const UserLinks = () => {
   const data = Data;
@@ -10,14 +8,12 @@ const UserLinks = () => {
       {
         data && data.map((item) => (
           <ul key={item.id}>
-            <l className="text-[#101828] text-[18px] rounded-[8px] flex flex-col items-center justify-center w-[100%] bg-[#EAECF0] py-5 my-5"><a href={item.href} target="__blank" id={item.styleId}>{item.name}</a></l>
+            <l className= "background-color: lightgrey; text-[#101828] text-[18px] rounded-[8px] flex flex-col items-center justify-center w-[100%] bg-[#EAECF0] py-5 my-5"><a href={item.href} target="__blank" id={item.styleId}>{item.name}</a></l>
+            
           </ul>
         ))
       }
-      <div className="flex gap-10 items-center justify-center w-[100%] mt-5">
-        <a href="https://slack.com" target="__blank"><img src={Slack} alt="Slack Icon" /></a>
-        <a href="https://github.com/KingsleyIbe" target="__blank"><img src={Github} alt="Github Icon" /></a>
-      </div>
+     <br />
     </div>
   );
 };

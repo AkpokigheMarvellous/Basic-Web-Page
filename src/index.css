@@ -2,7 +2,7 @@
 
 :root {
     --bg: #252a34;
-    --bg-dark: #1d1d1d;
+    --bg-dark: #cea5a5;
     --color: #eaeaea;
     --light-color: #eaeaeaa4;
     --primary-color: #4a00e0;
@@ -16,28 +16,21 @@ body {
     background: var(--bg);
     color: var(--color);
     font-family: var(--font);
-    font-size: 1.4em;
+    font-size: 1.9em;
     letter-spacing: 2px;
     text-align: center;
     border-width: 100px 1.5em;
+    
+    
 }
 
-#main {
-}
-
-#particles-js {
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    z-index: -1;
-}
 
 .padding {
     padding-top: 50px;
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 500%;
 }
 
 .profile-picture {
@@ -48,51 +41,21 @@ img {
     max-width: 100%;
 }
 
-.profile-name {
-    text-align: center;
-    padding: 30px;
-}
 
-.links {
-    padding: 0.6em 2em;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    background: none;
-    color: var(--color);
-    font-size: 1.1em;
-    cursor: pointer;
-    text-decoration: none;
-    text-align: center;
-    border: 2px solid var(--secondary-color);
-    transition: all 0.4s;
-    border-radius: 25px 0;
-    display: block;
-    width: 290px;
-    border-width: 2px 1.5em;
-    
-
-    
-}
-    a:hover{
-        border:1px solid red;  
-       }
-
+   
 a {
     text-decoration: none;
     color: var(--color);
     transition: color 1s;
+    border-style:outset;
+    border-width: medium;
 }
 
-.bottom-text {
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    font-size: 20px;
-    font-weight: bold;
-}
+
 
 a:hover {
     background: var(--secondary-color);
     border-radius: 0 25px;
 }
+
+

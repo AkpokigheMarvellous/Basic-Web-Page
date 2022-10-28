@@ -7,7 +7,7 @@ const Footer = () => (
     <hr />
     <div className="hidden lg:w-[100%] lg:flex lg:gap-[350px] lg:items-center lg:mt-[100px]">
       <img src={Zuri} alt="Zuri Logo" />
-      <p>@ 2022</p>
+      <p>Created with React</p>
     </div>
   </footer>
 );

@@ -4,6 +4,7 @@ const data = [
       name: 'Twitter Link',
       href: 'https://twitter.com/Ovigwe_',
       styleId: 'twitter',
+      
     },
     {
       id: 2,
