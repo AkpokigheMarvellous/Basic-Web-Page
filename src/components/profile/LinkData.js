@@ -36,6 +36,12 @@ const data = [
       href: 'https://books.zuri.team/design-rules',
       styleId: 'book__design',
     },
+    {
+      id: 7,
+      name: 'Contact Me',
+      href: '',
+      styleId: 'book__design',
+    },
   ];
   
   export default data;
